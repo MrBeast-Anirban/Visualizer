@@ -11,6 +11,7 @@ Repeat steps 2-4 until the entire array is sorted.
 
 Time Complexity:
 Best, Average, and Worst Case: O(n^2)
+
 ------------------------------------------------------------------------------
 <h2>2. Bubble Sort</h2>
 
@@ -26,6 +27,7 @@ Repeat the process for the remaining unsorted portion of the array until no more
 Time Complexity:
 Best Case: O(n) (when the array is already sorted)
 Average and Worst Case: O(n^2)
+
 ------------------------------------------------------------------------------
 <h2>3. Insertion Sort</h2>
 
@@ -41,6 +43,7 @@ Move to the next element and repeat the process until the entire array is sorted
 Time Complexity:
 Best Case: O(n) (when the array is already sorted)
 Average and Worst Case: O(n^2)
+
 ------------------------------------------------------------------------------
 <h2>4. Merge Sort</h2>
 
@@ -54,6 +57,7 @@ To merge two halves, compare the elements from each half and build a new array i
 
 Time Complexity:
 Best, Average, and Worst Case: O(nlogn)
+
 ------------------------------------------------------------------------------
 <h2>5. Quick Sort</h2>
 
@@ -68,6 +72,7 @@ Combine the sub-arrays and pivot to get the sorted array.
 Time Complexity:
 Best and Average Case: O(nlogn)
 Worst Case: O(n^2) (when the pivot choices are poor, such as always picking the smallest or largest element)
+
 ------------------------------------------------------------------------------
 <h2>6. Heap Sort</h2>
 
