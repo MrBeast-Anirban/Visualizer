@@ -12,7 +12,7 @@ Repeat steps 2-4 until the entire array is sorted.
 Time Complexity:
 Best, Average, and Worst Case: O(n^2)
 ------------------------------------------------------------------------------
-2. Bubble Sort
+<h2>2. Bubble Sort</h2>
 
 Bubble Sort is another simple sorting algorithm. It repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process continues until no more swaps are needed, indicating that the list is sorted.
 
@@ -27,7 +27,7 @@ Time Complexity:
 Best Case: O(n) (when the array is already sorted)
 Average and Worst Case: O(n^2)
 ------------------------------------------------------------------------------
-3. Insertion Sort
+<h2>3. Insertion Sort</h2>
 
 Insertion Sort builds the final sorted array one item at a time. It picks the next item from the unsorted portion and inserts it into its correct position within the sorted portion. This process is similar to how you might sort playing cards in your hands.
 
@@ -42,7 +42,7 @@ Time Complexity:
 Best Case: O(n) (when the array is already sorted)
 Average and Worst Case: O(n^2)
 ------------------------------------------------------------------------------
-4. Merge Sort
+<h2>4. Merge Sort</h2>
 
 Merge Sort is a divide-and-conquer algorithm. It divides the array into smaller sub-arrays, sorts each sub-array, and then merges the sorted sub-arrays to produce the final sorted array. It is known for its efficiency and stability.
 
@@ -55,8 +55,8 @@ To merge two halves, compare the elements from each half and build a new array i
 Time Complexity:
 Best, Average, and Worst Case: O(nlogn)
 ------------------------------------------------------------------------------
-5. Quick Sort
-Description:
+<h2>5. Quick Sort</h2>
+
 Quick Sort is another divide-and-conquer algorithm. It selects a "pivot" element and partitions the array into elements less than the pivot and elements greater than the pivot. It then recursively sorts the sub-arrays.
 
 Algorithm:
@@ -69,8 +69,8 @@ Time Complexity:
 Best and Average Case: O(nlogn)
 Worst Case: O(n^2) (when the pivot choices are poor, such as always picking the smallest or largest element)
 ------------------------------------------------------------------------------
-6. Heap Sort
-Description:
+<h2>6. Heap Sort</h2>
+
 Heap Sort uses a binary heap data structure. It builds a max heap (or min heap for descending order) from the input data and then repeatedly extracts the maximum (or minimum) element from the heap and places it into the sorted array.
 
 Algorithm:
