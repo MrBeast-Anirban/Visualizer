@@ -1,4 +1,4 @@
-1. Selection Sort
+<h2>1. Selection Sort</h2>
 
 Selection Sort is a simple and intuitive sorting algorithm. It works by repeatedly finding the minimum element (or maximum, depending on sorting order) from the unsorted portion of the array and moving it to the beginning (or end) of the sorted portion.
 
